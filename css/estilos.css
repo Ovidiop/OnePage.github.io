@@ -1,0 +1,263 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background: #976842;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    align-items: center;
+}
+
+.cabecera {
+    background: darkgreen;
+    color: darkkhaki;
+}
+
+.menu-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-nav ul li {
+    display: inline-block;
+}
+
+.menu-nav ul li a {
+    display: block;
+    padding: 10px;
+}
+
+#seccion1 {
+    height: 750px;
+    background: rgb(122, 122, 255);
+    background-image:url(../img/gbrownies.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:table;
+    width: 100%;
+    justify-content: center;
+}
+
+#seccion2 {
+    height: 750px;
+    background: rgb(197, 53, 53);
+    background-image:url(../img/vbrownies.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+#seccion3 {
+    height: 750px;
+    background: rgb(53, 197, 84);
+    background-image:url(../img/galletasch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+#seccion4 {
+    height: 750px;
+    background: #553b25;
+    display: inline-block;
+    width: 100%;
+}
+
+#seccion5 {
+    height: 750px;
+    background: rgb(206, 252, 39);
+    background-image:url(../img/cursogalletas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+#seccion6 {
+    height: 750px;
+    background: rgb(47, 50, 212);
+    background-image:url(../img/galletascom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+.seccion3 ul li {
+    text-align: center;
+}
+
+.galeria {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+
+.parrafo1 {
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    display: block;
+}
+
+.parrafo2 {
+    padding: 5px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    margin: 150px;
+    text-align: left;
+    padding: 0;
+    font-family: cursive;
+}
+
+.qsomos {
+    text-align: center;
+}
+
+h3 {
+    margin: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.nproductos {
+    text-align: center;
+}
+
+.cursos {
+    font-size: 30px;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+div p {
+    padding: 0px 50px;
+    margin: 0;
+    text-align: left;
+}
+
+a {
+    padding: 20px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+ul {
+    padding: 40px;
+    margin: 0;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+}
+
+
+form {
+    width: 450px;
+    margin: auto;
+    background: #976842;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 230px;
+    border-radius: 10px;
+}
+
+div form h2 {
+    color: rgb(68, 38, 17);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: rgb(228, 183, 172);
+    color: black;
+    padding: 10px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+
+
+@media (max-width:480px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+    nav ul li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#pie{
+    width:100%;
+    height: 100px;
+    background-color:black;
+    text-align: center;
+    padding-top:8px;
+    color:white;
+    float: none;
+    }
